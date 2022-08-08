@@ -7,8 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC    #Loading Wai
 
 
 # Set information you need !!
-srt_id = "01022702604"  # input your phone number
-srt_pw = "tlfb490418!"
+srt_id = "your phonenum"  # input your phone number
+srt_pw = "your password"
 srt_departure = "동탄"    # () 내에 있는 글자까지 기입
 srt_destination = "부산"
 srt_date = "08/12(금)"    # 00/00(요일) 반드시 해당 양식으로 기입
