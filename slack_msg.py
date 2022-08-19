@@ -1,11 +1,12 @@
 import requests
 
+
 #### botToken, Channel setting ####
-myToken = "xoxb-3919741179778-3978768326241-RIzqvlzHd7U5yf89JHH3Hzfo"
-channelName = "#srt-자동-예약-시스템"
+myToken = "token"
+channelName = "#channel"
 
 #### massage setting ####
-msgAlarm = "srt macro"
+msgAlarm = "Hi"
 
 
 
@@ -16,7 +17,6 @@ class SlackMsg :
             data={"channel": channel,"text": text}
         )
         print(response)
-
 
 
 
